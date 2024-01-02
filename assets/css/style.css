@@ -1,10 +1,3 @@
-/**
-* Template Name: Medicio
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -80,7 +73,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #EE2326;
+  background: #000;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -91,11 +84,16 @@ h6 {
   font-size: 28px;
   color: #fff;
   line-height: 0;
+  color: red;
 }
 
 .back-to-top:hover {
-  background: #5ec6ca;
+  background: red;
   color: #fff;
+}
+
+.back-to-top:hover i{
+  color: #000;
 }
 
 .back-to-top.active {
@@ -455,8 +453,8 @@ h6 {
 #hero .container {
   text-align: center;
   background: rgba(255, 255, 255, 0.9);
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 15px;
+  /* padding-bottom: 30px; */
   margin-bottom: 50px;
   border-top: 4px solid #EE2326;
 }
@@ -600,7 +598,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
@@ -1784,4 +1782,10 @@ section {
   .control-next-btn {
     top: 37%;
  }
+}
+
+@media (max-width: 990px){
+  .for_reverce_flex{
+    flex-direction: column-reverse;
+  }
 }
